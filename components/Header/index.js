@@ -10,7 +10,7 @@
 // And add it to the DOM in the .header-container component
 
 function Header() {
-    const header = doucment.createElement("div");
+    const header = document.createElement("div");
     const currentDate = document.createElement("span");
     const lambdaTimes = document.createElement("h1");
     const currentTemp = document.createElement("span");
