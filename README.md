@@ -29,14 +29,28 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+    the document object model is the entirty of a webpage
+    represented as in object like structure. 
 
 2. What is an event?
+    an event is something that chrome listens for on a page, such as
+    a mouse click or key press. We can add event listners to invoke
+    functions in our js files.
 
 3. What is an event listener?
+    event listners are methods that can be called on elements. They take
+    in whatever event you want to listen for as well as a callback function. 
 
 4. Why would we convert a NodeList into an Array?
+    an array brings with it all the cool functionality of higher
+    oreder methods and a nodelist does not. SOO making this switch
+    makes your live a bunch easier.
 
 5. What is a component?
+    a component is a slice of reusable code that can be called to create
+    some sort of html element on your page. A good example is a card 
+    containing a name, bio, and photo. This one componet could be used to
+    many cards with diffrent datasets getting passed into it. 
 
 ### Git Set up
 
@@ -55,7 +69,7 @@ Your finished project must include all of the following requirements:
 
 * [x] Following the instructions in the `Tabs/index.js` file, create individual Tabs components.
 
-* [ ] Following the instructions in the `Cards/index.js` file, create individual Cards components.
+* [x] Following the instructions in the `Cards/index.js` file, create individual Cards components.
 
 ## Stretch Problems
 

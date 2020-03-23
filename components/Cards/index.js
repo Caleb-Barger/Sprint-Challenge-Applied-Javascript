@@ -52,7 +52,6 @@ function makeCard(object) {
 
 
 const cardsContainer = document.querySelector(".cards-container");
-// cardsContainer.appned(document.createElement("p"));
 
 axios.get("https://lambda-times-backend.herokuapp.com/articles")
     .then(response => {
@@ -76,8 +75,6 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
       for (let i=0; i < nArticles.length; i++){  
         cardsContainer.append(makeCard(nArticles[i]));
       }
-
-
     });
 
 
